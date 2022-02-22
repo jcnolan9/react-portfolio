@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import Header from './Header'
+import Footer from './Footer'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
@@ -25,7 +27,7 @@ function Project() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className='wrapper'>
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
             <div>
                 {renderPage()}

@@ -1,11 +1,12 @@
 import React from 'react'
+import '../../index'
 
 function about() {
 
     return (
         <div>
             <h2>About Me</h2>
-            <img src='BlackGuy_Locks.jpg'></img>
+            <img className='icon' src='BlackGuy_Locks.jpg'></img>
             <p>"Growth mindset" is the best term to describe me. I am continuosly learning and striving to better myself 
                 whether that be by gaining new skills, traveling to new places, interacting with new cultures and peoples, or 
                 through self-examination and reflection. I am innately curious and have a strong impulse to understand the world around 
