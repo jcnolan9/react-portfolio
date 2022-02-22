@@ -9,11 +9,7 @@ import Header from './components/Project'
 function App() {
   return (
     <div className="App">
-      <Header />
-      <div>
-        <Project />
-      </div>
-      <Footer />
+      <PortfolioContainer />
     </div>
   );
 }
