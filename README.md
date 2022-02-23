@@ -5,4 +5,4 @@ In this project I convert my HTML, CSS, and Bootstrap portfolio into a REACT app
 
 
 ## Link to Deployed Portfolio
-https://jcnolan9.github.io/react-portfolio/
+https://jcnolan9.github.io/deploytest
